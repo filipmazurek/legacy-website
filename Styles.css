@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+.navBar {
+	position: fixed;
+	background-color: #001A57;
+	width: 100px;
+	height: 100%;
+	overflow: hidden;
+	outline: none;
+	left: 0;
+	top: 0;
+}
+.navCurrentPage {
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #001A57;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: thin solid #000000;
+}
+.navOtherPage {
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: thin solid #000000;
+	-webkit-transition: all;
+	-o-transition: all;
+	transition: all;
+}
+.bodyOther {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(Images/background_neutral.jpg);
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: medium;
+}
+.bodyMain {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(Images/background_Filip.jpg);
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: medium;
+}
+.aNav {
+	text-decoration: none;
+}
+.logoImage {
+	background-image: url(Images/holderF.jpg);
+	background-size: contain;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	background-repeat: no-repeat;
+	margin-left: 28px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer {
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 20px;
+	margin-left: 10px;
+}
+.contentFloating {
+	position: relative;
+	margin-left: 20%;
+	margin-right: 45%;
+}
+.headerFloating {
+	color: #FFFFFF;
+	text-shadow: 3px 4px #000000;
+	margin-top: 15%;
+	font-size: xxxx-large;
+}
+.pFloating {
+	overflow:auto;
+	margin-top: 10%;
+	background-color: #FFFFFF;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	padding-right: 2%;
+	line-height: 135%;
+	border-radius: 3px;
+}
+.contentBlock{
+	position: relative;
+	display:block;
+	margin-left: 20%;
+	margin-right: 15%;
+	background-color: #FFFFFF;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	padding-right: 2%;
+	border-radius: 3px;
+	height:100%;
+}
+.headerBlock {
+	color: #000000;
+	text-shadow: 1px 1px #001A57;
+	margin-top: 6%;
+	margin-bottom: 4%;
+	font-size: xxxx-large;
+}
+.pBlock {
+	margin-top: 2%;
+	line-height: 135%;
+}
+.navOtherPage:hover {
+	background-color: #0043E0;
+}
+.projectContainer {
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	width: 96%;
+	height: auto;
+	display:inline-block;
+}
+.projectImageLeftVendr {
+	margin-left: 2%;
+	height: 15em;
+	width: 15em;
+	background-image: url(images/VendrLogo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+.projectDescriptionLeft {
+	left: 45%;
+	height: 96%;
+	width: 50%;
+	float: right;
+}
+.projectImageRightNightingaleLab {
+	margin-right: 2%;
+	height: 15em;
+	width: 15em;
+	background-image: url(images/testProject.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+}
+.projectDescriptionRight {
+	right: 45%;
+	height: 96%;
+	width: 50%;
+	float: left;
+}
+.projectDescriptionHeader {
+}
+table, td {
+	text-align: left;
+	border: thin solid #000000;
+	border-collapse: collapse;
+}
+strong {
+	font-weight: 900;
+}
+.linkIcon {
+	width: 15%;
+	height: 15%;
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+.messageSubmission {
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	width: 96%;
+	height: auto;
+	display:inline-block;
+}
